@@ -2,7 +2,8 @@ import BaseRepository from './base/baseRepository';
 
 class ExampleRepository extends BaseRepository {  
     constructor() {
-        super('examples');
+        let modelName = 'examples'
+        super(modelName);
     }
 }
 
